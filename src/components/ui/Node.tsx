@@ -116,7 +116,7 @@ const StyledNode = styled.div<StyledNodeProps>`
   border: 2px solid;
   border-color: ${({ theme }) => theme.nodeBorderColor};
   box-shadow: 0 0 12px 0 rgba(255, 255, 255, 0);
-  border-radius: ${({ theme }) => theme.borderRadius};
+  border-radius: ${({ theme }) => theme.nodeBorderRadius};
   cursor: pointer;
   display: flex;
   margin: 0 3px;
