@@ -37,9 +37,11 @@ const TooltipContent = React.memo(function({
 export default TooltipContent;
 
 const Title = styled.h1`
+  font-size: ${({ theme }) => theme.tooltipHeaderFontSize}
   margin: 8px 0;
 `;
 
 const ContentContainer = styled.div`
+  font-size: ${({ theme }) => theme.tooltipFontSize}
   margin: 8px 0;
 `;
