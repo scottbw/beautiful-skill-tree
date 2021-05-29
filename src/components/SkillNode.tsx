@@ -155,7 +155,7 @@ const StyledSkillNode = styled.div`
 
 const SkillNodeOverlay = styled.span<SkillNodeOverlayProps>`
   background-color: ${({ theme }) => theme.nodeOverlayColor};
-  border-radius: ${({ theme }) => theme.borderRadius};
+  border-radius: ${({ theme }) => theme.nodeBorderRadius};
   height: 100%;
   left: 3px;
   opacity: 0;
